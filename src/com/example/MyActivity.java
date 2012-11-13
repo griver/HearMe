@@ -19,7 +19,7 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
 
 
-        setContentView(R.layout.main);
+        setContentView(R.layout.volume_test);
         Button btn = (Button)findViewById(R.id.changeVolume);
         btn.setOnClickListener(new View.OnClickListener() {
             private boolean  muteOn = false;
