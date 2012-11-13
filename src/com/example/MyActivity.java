@@ -1,11 +1,8 @@
 package com.example;
 
 import android.app.Activity;
-import android.content.Context;
 import android.media.AudioManager;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
 public class MyActivity extends Activity {
     /**
@@ -17,7 +14,13 @@ public class MyActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.volume_test);
 
+        //Intent intent = new Intent(this, GPSActivity.this);
+        //startActivity(intent);
+
+
+        /*
 
         setContentView(R.layout.volume_test);
         Button btn = (Button)findViewById(R.id.changeVolume);
@@ -37,7 +40,7 @@ public class MyActivity extends Activity {
             }
         });
 
-
+        */
     }
 
 
