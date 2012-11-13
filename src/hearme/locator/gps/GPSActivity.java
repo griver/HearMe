@@ -77,9 +77,8 @@ public class GPSActivity extends Activity {
             int size = list.results.size();
             String[] places = new String[size];
             int x = 0;
-            for (Place place: list.results) {
-                places[x] = place.formatted_address;
-            }
+            for (Place place: list.results)
+                places[x++] = place.name;
             Log.d("Places size:", Integer.toString(size));
 
             String res = "";
