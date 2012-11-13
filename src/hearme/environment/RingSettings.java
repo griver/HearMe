@@ -7,11 +7,11 @@ package hearme.environment;
  * Time: 9:41
  * To change this template use File | Settings | File Templates.
  */
-public class CallSettings {
+public class RingSettings {
     private boolean myIsVibrationOn;
     private int volume;
 
-    public CallSettings(boolean myIsVibrationOn, int volume) {
+    public RingSettings(boolean myIsVibrationOn, int volume) {
         this.myIsVibrationOn = myIsVibrationOn;
         this.volume = volume;
     }

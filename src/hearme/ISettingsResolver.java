@@ -7,6 +7,8 @@ package hearme;
  * Time: 8:26
  * To change this template use File | Settings | File Templates.
  */
-public interface ICorrector {
-    void updatePhoneSettings();
+public interface ISettingsResolver {
+
+    void resolve();
+
 }

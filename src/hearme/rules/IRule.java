@@ -1,6 +1,6 @@
 package hearme.rules;
 
-import hearme.environment.CallSettings;
+import hearme.environment.RingSettings;
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,7 +10,7 @@ import hearme.environment.CallSettings;
  * To change this template use File | Settings | File Templates.
  */
 public interface IRule extends Comparable<IRule> {
-    CallSettings getCallSettings();
+    RingSettings getRingSettings();
     ICondition getCondition();
     boolean isTimeGlobal();
     boolean isLocationGlobal();
