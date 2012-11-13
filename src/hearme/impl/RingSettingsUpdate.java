@@ -1,6 +1,5 @@
 package hearme.impl;
 
-import hearme.ISettingsResolver;
 import hearme.environment.Location;
 import hearme.environment.Time;
 import hearme.providers.ILocationProvider;
@@ -10,21 +9,19 @@ import hearme.rules.IRule;
 import hearme.rules.IRulesManager;
 
 import java.util.List;
+import java.util.TimerTask;
 
 /**
  * Created with IntelliJ IDEA.
  * User: griver
- * Date: 13.11.12
- * Time: 18:39
- * To change this template use File | Settings | File Templates.
  */
-public class RingSettingsResolver implements ISettingsResolver {
+public class RingSettingsUpdate extends TimerTask {
     ILocationProvider myLocationProvider;
     ITimeProvider myTimeProvider;
     IRulesManager manager;
     IRingSettingsProvider myRingProvider;
 
-    public RingSettingsResolver(ILocationProvider locationProvider, ITimeProvider timeProvider, IRulesManager manager) {
+    public RingSettingsUpdate(ILocationProvider locationProvider, ITimeProvider timeProvider, IRulesManager manager) {
         if(locationProvider == null || timeProvider == null || manager == null)
             throw new NullPointerException();
 
@@ -33,12 +30,13 @@ public class RingSettingsResolver implements ISettingsResolver {
 
     }
 
+
     void setRingSettingsProvider(IRingSettingsProvider ringSettingsProvider){
         myRingProvider = ringSettingsProvider;
     }
 
     @Override
-    public void resolve() {
+    public void run() {
         Location location = myLocationProvider.getCurrentLocation();
         Time time = myTimeProvider.getCurrentTime();
         List<IRule> rules = manager.getApplicableRules(location, time);
