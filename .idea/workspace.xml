@@ -12,81 +12,12 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ae44dc1-c558-489d-b586-06a308ab1fe8" name="Default" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;src/hearme/locator/gps/GPSActivity.java&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/main_screen_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/profile_editor_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/profiles_list_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/options.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/profiles_list_context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/activities/EditProfileActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/activities/ListProfileActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/activities/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/dialogs/LocalPlacesSelectionDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/dialogs/ProfileRemovalConfirmationDialog.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/griver.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/example/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/example/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/com/example/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/com/example/MyActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/com/example/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/com/example/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/com/example/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/com/example/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/hearme/IInvoker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/hearme/IPersistenceProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/hearme/environment/Location.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/hearme/environment/Time.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/hearme/environment/TimeInterval.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/hearme/environment/TimeIntervalException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/hearme/providers/ILocationProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/hearme/providers/ITimeProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/hearme/rules/ICondition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/hearme/rules/IRule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HearMe/hearme/rules/IRulesManager.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/google_api_client_1_12_0_beta.xml" afterPath="$PROJECT_DIR$/.idea/libraries/google_api_client_android_1_12_0_beta.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/HearMe.iml" afterPath="$PROJECT_DIR$/hm.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/MyActivity.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/activities/MyActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/IInvoker.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/IInvoker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/IPersistenceProvider.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/IPersistenceProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/environment/Location.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/environment/Location.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/environment/RingSettings.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/environment/RingSettings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/environment/Time.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/environment/Time.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/environment/TimeInterval.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/environment/TimeInterval.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/environment/TimeIntervalException.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/environment/TimeIntervalException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/impl/FooPersistenceProvider.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/impl/FooPersistenceProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/impl/MyAlert.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/impl/MyAlert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/impl/RingSettingsUpdate.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/impl/RingSettingsUpdate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/impl/SimpleTimer.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/impl/SimpleTimer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/locator/gps/GPSActivity.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/activities/GPSActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/locator/place/ConnectionDetector.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/locator/place/ConnectionDetector.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/locator/place/GooglePlaces.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/locator/place/GooglePlaces.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/locator/place/Place.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/locator/place/Place.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/locator/place/PlaceProvider.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/locator/place/PlaceProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/locator/place/PlacesList.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/locator/place/PlacesList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/locator/viewer/PlaceViewer.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/activities/PlaceViewerActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/providers/ILocationProvider.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/providers/ILocationProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/providers/IRingSettingsProvider.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/providers/IRingSettingsProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/providers/ITimeProvider.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/providers/ITimeProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/rules/ICondition.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/rules/ICondition.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/rules/IRule.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/rules/IRule.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/rules/IRulesManager.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/rules/IRulesManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="8ae44dc1-c558-489d-b586-06a308ab1fe8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/android-support-v13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v13.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ant.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant.properties" afterPath="$PROJECT_DIR$/ant.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hm.iml" afterPath="$PROJECT_DIR$/hm.iml" />
     </list>
     <ignored path="HearMe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -159,7 +90,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ListProfileActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/ListProfileActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="11" selection-start="1072" selection-end="3477" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -168,33 +110,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="options.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/options.xml">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+            <state line="10" column="13" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlacesList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/locator/place/PlacesList.java">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListProfileActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/ListProfileActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="76" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="12" column="13" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -202,10 +131,8 @@
       <file leaf-file-name="LocalPlacesSelectionDialog.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/dialogs/LocalPlacesSelectionDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="9" column="62" selection-start="271" selection-end="285" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -214,17 +141,15 @@
         <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/dialogs/ProfileRemovalConfirmationDialog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="62" selection-start="424" selection-end="435" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditProfileActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EditProfileActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/EditProfileActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="12" selection-start="515" selection-end="541" vertical-scroll-proportion="0.71267605">
+            <state line="18" column="20" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -235,7 +160,7 @@
       <file leaf-file-name="GPSActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/GPSActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="46" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0">
+            <state line="30" column="13" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -292,9 +217,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="x" value="-1" />
+    <option name="y" value="-4" />
+    <option name="width" value="1368" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -307,7 +233,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectStructureProblems">
     <ignored-problems>
@@ -337,16 +263,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -507,12 +423,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HearMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="gen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -536,8 +476,8 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Wildfire_Level_8" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -590,6 +530,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -615,24 +573,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -777,7 +717,11 @@
       <created>1352844128409</created>
       <updated>1352844128409</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="сомнительные изменения">
+      <created>1352871207107</created>
+      <updated>1352871207107</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -801,7 +745,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -868,7 +812,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;src/hearme/locator/gps/GPSActivity.java&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="сомнительные изменения" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -884,6 +828,7 @@
     <MESSAGE value="example of sound volume managment" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;gen/com/example/R.java&#10;&#9;src/com/example/MyActivity.java&#10;" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;src/hearme/locator/gps/GPSActivity.java&#10;" />
+    <MESSAGE value="сомнительные изменения" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -898,16 +843,30 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/res/menu/options.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/options.xml">
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/locator/place/PlacesList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/dialogs/ProfileRemovalConfirmationDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="62" selection-start="424" selection-end="435" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/PlaceViewerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -919,32 +878,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/locator/place/PlacesList.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/EditProfileActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/PlaceViewerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/GPSActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="46" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/ListProfileActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="76" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+        <state line="18" column="20" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -953,28 +889,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/dialogs/LocalPlacesSelectionDialog.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="62" selection-start="271" selection-end="285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/GPSActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/ListProfileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="11" selection-start="1072" selection-end="3477" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/dialogs/ProfileRemovalConfirmationDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="62" selection-start="424" selection-end="435" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/EditProfileActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="12" selection-start="515" selection-end="541" vertical-scroll-proportion="0.71267605">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
