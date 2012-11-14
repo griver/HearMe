@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <TextView
+            android:id="@+id/header_caption"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/header_caption"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"/>
+
+    <RelativeLayout android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+        <TextView
+                android:text="@string/place_settings_checkbox_enabled_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dip"
+                />
+
+        <CheckBox
+                android:id="@+id/place_settings_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:onClick="applicationStateCheckboxClicked"
+                android:layout_centerVertical="true"
+                android:paddingRight="10dip"
+                android:checked="false"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

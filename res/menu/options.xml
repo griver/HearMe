@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/options_add_place"
+      android:title="@string/option_manage_profiles_title"
+      android:titleCondensed="@string/option_manage_profiles_title_condensed"
+
+      android:visible="true"
+      android:enabled="true"
+      />
+
+</menu>
+
+<!--android:showAsAction="always" -->
