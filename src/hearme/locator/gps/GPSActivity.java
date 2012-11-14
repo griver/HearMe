@@ -20,6 +20,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
+
 import com.example.R;
 import hearme.locator.place.ConnectionDetector;
 import hearme.locator.place.Place;
@@ -60,6 +61,7 @@ public class GPSActivity extends Activity {
 
 
     protected void find() {
+
         Location location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
         if (location != null) {
             String message = String.format("Current Location \n Longitude: %1$s \n Latitude: %2$s", location.getLongitude(), location.getLatitude());

@@ -19,9 +19,9 @@ public interface IRulesManager {
 
     List<IRule> getApplicableRules(Location location, Time time);
 
-    List<IRule> GetAllRules();
-
     List<IRule> GetConflictingRules(IRule rule);
+
+    List<IRule> GetAllRules();
 
     boolean AddRule(IRule rule);
 
