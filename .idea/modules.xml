@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HearMe.iml" filepath="$PROJECT_DIR$/HearMe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hm.iml" filepath="$PROJECT_DIR$/hm.iml" />
     </modules>
   </component>
 </project>

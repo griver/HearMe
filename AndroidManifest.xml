@@ -1,46 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example"
+          package="ru.spbau.hm"
           android:versionCode="1"
           android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="8"/>
-    <application android:label="@string/app_name"
-                 android:debuggable="true">
-        <activity android:name="com.example.MyActivity"
-                  android:label="@string/app_name">
-            <!--
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-            -->
-        </activity>
 
-        <activity android:name="hearme.locator.gps.GPSActivity">
+    <uses-sdk android:minSdkVersion="16"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <application
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher">
+        <activity
+                android:name=".activities.MainActivity"
+                android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="hearme.locator.viewer.PlaceViewer">
-        <!--
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        -->
+        <activity
+                android:name=".activities.ListProfileActivity"
+                android:label="@string/profiles_list_title">
         </activity>
-
-
+        <activity
+                android:name=".activities.EditProfileActivity"
+                android:label="@string/profile_editor_title">
+        </activity>
     </application>
-
-
-
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-
-</manifest> 
+</manifest>

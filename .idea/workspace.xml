@@ -1,22 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidDesignerProfile">
+    <option name="fullProfile">
+      <profile>
+        <option name="device" value="WVGA800" />
+        <option name="deviceConfiguration" value="WVGA800" />
+        <option name="targetHashString" value="android-16" />
+        <option name="theme" value="Theme" />
+      </profile>
+    </option>
+    <option name="selection" value="[Full]" />
+  </component>
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
       <GlobalState>
-        <option name="device" value="3.2in HVGA (ADP2)" />
+        <option name="device" value="WVGA800" />
         <option name="dockMode" value="" />
         <option name="nightMode" value="notnight" />
-        <option name="targetHashString" value="android-8" />
+        <option name="targetHashString" value="android-16" />
         <option name="theme" value="Theme" />
+        <option name="visible" value="false" />
       </GlobalState>
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ae44dc1-c558-489d-b586-06a308ab1fe8" name="Default" comment="">
+    <list default="true" id="9706fbe7-2636-4d24-9ec6-247d9e014380" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/activities/EditProfileActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/activities/ListProfileActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/dialogs/LocalPlacesSelectionDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/activities/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/dialogs/ProfileRemovalConfirmationDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hm.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/main_screen_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/options.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/profile_editor_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/profiles_list_context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/profiles_list_layout.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/griver.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/google_api_client_1_12_0_beta.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HearMe.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/example/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/example/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/MyActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/hearme/locator/viewer/PlaceViewer.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/IInvoker.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/IInvoker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/IPersistenceProvider.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/IPersistenceProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/environment/Location.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/environment/Location.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/environment/RingSettings.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/environment/RingSettings.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/environment/Time.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/environment/Time.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/environment/TimeInterval.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/environment/TimeInterval.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/environment/TimeIntervalException.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/environment/TimeIntervalException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/impl/FooPersistenceProvider.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/impl/FooPersistenceProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/impl/MyAlert.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/impl/MyAlert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/impl/RingSettingsUpdate.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/impl/RingSettingsUpdate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/impl/SimpleTimer.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/impl/SimpleTimer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/locator/gps/GPSActivity.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/activities/GPSActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/locator/place/ConnectionDetector.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/locator/place/ConnectionDetector.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/locator/place/GooglePlaces.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/locator/place/GooglePlaces.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/locator/place/Place.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/locator/place/Place.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/locator/place/PlaceProvider.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/locator/place/PlaceProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/locator/place/PlacesList.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/locator/place/PlacesList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/locator/viewer/PlaceViewer.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/activities/PlaceViewerActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/providers/ILocationProvider.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/providers/ILocationProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/providers/IRingSettingsProvider.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/providers/IRingSettingsProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/providers/ITimeProvider.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/providers/ITimeProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/rules/ICondition.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/rules/ICondition.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/rules/IRule.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/rules/IRule.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hearme/rules/IRulesManager.java" afterPath="$PROJECT_DIR$/src/ru/spbau/hm/rules/IRulesManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <ignored path="HearMe.iws" />
+    <ignored path="hm.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352863411046" ignored="false" />
+    <file path="/profile_editor_layout.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352858709162" ignored="false" />
+    <file path="/LocalPlacesSelectionDialog.java" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352858431965" ignored="false" />
+    <file path="/EditProfileActivity.java" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352858054361" ignored="false" />
+    <file path="/ListProfileActivity.java" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352855868032" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352855772508" ignored="false" />
+    <file path="$PROJECT_DIR$/src/ru/spbau/hm/package.scala" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352855452039" ignored="false" />
+    <file path="/FireMissilesDialogFragment.java" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352855205524" ignored="false" />
+    <file path="/strings.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352855147236" ignored="false" />
+    <file path="/profile_list_context_menu_buttons_layout.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352853526448" ignored="false" />
+    <file path="/profile_list_context_menu.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352853138482" ignored="false" />
+    <file path="/profile_list_context.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352852124963" ignored="false" />
+    <file path="/profiles_list_layout.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352847696592" ignored="false" />
+    <file path="/MainActivity.java" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352838344888" ignored="false" />
+    <file path="/options.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352829045741" ignored="false" />
+    <file path="/main.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352814775873" ignored="false" />
+    <file path="$PROJECT_DIR$/../hm2/.idea/workspace.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352796337037" ignored="false" />
+    <file path="$PROJECT_DIR$/../hm2/.idea/compiler.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352796326816" ignored="false" />
+    <file path="$PROJECT_DIR$/../hm2/res/layout/main.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352796318555" ignored="false" />
+    <file path="$PROJECT_DIR$/../hm2/src/ru/spbau/hm/MainActivity.java" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352796318555" ignored="false" />
+    <file path="$PROJECT_DIR$/../hm2/build.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352796318555" ignored="false" />
+    <file path="$PROJECT_DIR$/../hm2/AndroidManifest.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352796318009" ignored="false" />
+    <file path="$PROJECT_DIR$/../hm2/res/values/strings.xml" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352796318009" ignored="false" />
+    <file path="/fragment.java" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352862962801" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/ru/spbau/hm/BuildConfig.java" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352863203664" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/ru/spbau/hm/Manifest.java" changelist="9706fbe7-2636-4d24-9ec6-247d9e014380" time="1352863203664" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,35 +126,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/MyActivity.java" line="19" class="com.example.MyActivity" package="com.example">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/hearme/locator/gps/GPSActivity.java" line="62" class="hearme.locator.gps.GPSActivity" package="hearme.locator.gps">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -67,9 +135,10 @@
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
         <option name="CONDITION" value="" />
@@ -82,38 +151,108 @@
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="HearMe" />
+    <favorites_list name="hm" />
+    <favorites_list name="Current task" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GPSActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hearme/locator/gps/GPSActivity.java">
+      <file leaf-file-name="EditProfileActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/EditProfileActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="69" selection-start="2270" selection-end="2270" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="Place.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/locator/place/Place.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="54" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.2902439">
+            <state line="37" column="36" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlaceProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/locator/place/PlaceProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="13" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlacesList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/locator/place/PlacesList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="13" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlaceViewerActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/PlaceViewerActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="13" selection-start="413" selection-end="413" vertical-scroll-proportion="0.23166023">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GPSActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/GPSActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="volume_test.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/volume_test.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="38" selection-start="195" selection-end="195" vertical-scroll-proportion="-1.6666666">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionDetector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/locator/place/ConnectionDetector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="13" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GooglePlaces.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/locator/place/GooglePlaces.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="37" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="tag#activity#0;tag#application#0;tag#manifest#0" expanded="false" />
+                <element signature="e#534#566#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,44 +266,55 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Alexey Kudinkin" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/hearme/impl/FirstRuleInvoker.java" />
-        <option value="$PROJECT_DIR$/src/hearme/ICorrector.java" />
-        <option value="$PROJECT_DIR$/src/hearme/IInvoker.java" />
-        <option value="$PROJECT_DIR$/src/hearme/IUpdateAction.java" />
-        <option value="$PROJECT_DIR$/src/hearme/rules/IRulesManager.java" />
-        <option value="$PROJECT_DIR$/src/hearme/providers/IRingSettingsProvider.java" />
-        <option value="$PROJECT_DIR$/src/hearme/impl/FooPersistenceProvider.java" />
-        <option value="$PROJECT_DIR$/src/hearme/rules/IRule.java" />
-        <option value="$PROJECT_DIR$/src/hearme/impl/RingSettingsUpdater.java" />
-        <option value="$PROJECT_DIR$/src/hearme/ISettingsUpdater.java" />
-        <option value="$PROJECT_DIR$/src/hearme/ISettingsResolver.java" />
-        <option value="$PROJECT_DIR$/src/hearme/impl/RingSettingsResolver.java" />
-        <option value="$PROJECT_DIR$/src/hearme/impl/FooProvider.java" />
-        <option value="$PROJECT_DIR$/src/hearme/impl/FooInvoker.java" />
-        <option value="$PROJECT_DIR$/src/hearme/locator/place/GooglePlaces.java" />
-        <option value="$PROJECT_DIR$/src/hearme/locator/gps/GPSActivity.java" />
+        <option value="$PROJECT_DIR$/res/menu/profile_list_context_menu.xml" />
+        <option value="$PROJECT_DIR$/res/layout/profile_list_context_menu_buttons_layout.xml" />
+        <option value="$PROJECT_DIR$/res/menu/profile_list_context.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/ru/spbau/hm/FireMissilesDialogFragment.java" />
+        <option value="$PROJECT_DIR$/src/ru/spbau/hm/ui/ProfileRemovalConfirmationDialog.java" />
+        <option value="$PROJECT_DIR$/src/ru/spbau/hm/ProfileRemovalConfirmationDialog.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/ru/spbau/hm/ListProfileActivity.java" />
+        <option value="$PROJECT_DIR$/src/ru/spbau/hm/LocalPlacesSelectionDialog.java" />
+        <option value="$PROJECT_DIR$/res/layout/profile_editor_layout.xml" />
+        <option value="$PROJECT_DIR$/src/ru/spbau/hm/EditProfileActivity.java" />
+        <option value="$PROJECT_DIR$/src/ru/spbau/hm/ui/EditProfileActivity.java" />
+        <option value="$PROJECT_DIR$/src/ru/spbau/hm/locator/gps/GPSActivity.java" />
+        <option value="$PROJECT_DIR$/src/ru/spbau/hm/locator/viewer/PlaceViewerActivity.java" />
+        <option value="$PROJECT_DIR$/src/ru/spbau/hm/activities/PlaceViewerActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-4" />
-    <option name="width" value="1368" />
-    <option name="height" value="773" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -183,45 +333,33 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -229,17 +367,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hearme" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -247,109 +385,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hearme" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hearme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="providers" />
+              <option name="myItemId" value="activities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hearme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locator" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hearme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gps" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
+              <option name="myItemId" value="hm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -357,74 +439,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HearMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/ru/spbau/hm" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
-    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/protobuf-java-2.4.1.jar!/" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Wildfire_Level_8" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.spbau.hm" />
+    </key>
   </component>
-  <component name="RunManager" selected="Android Application.HearMe">
+  <component name="RunManager" selected="Android Application.hm.4.1.2">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -441,12 +496,7 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -454,31 +504,10 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -503,14 +532,23 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -522,14 +560,10 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -547,12 +581,7 @@
       </option>
       <envs />
       <patterns />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
@@ -567,20 +596,15 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
-    <configuration default="false" name="HearMe" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="HearMe" />
-      <option name="ACTIVITY_CLASS" value="hearme.locator.gps.GPSActivity" />
+    <configuration default="false" name="hm.4.1.2" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="hm" />
+      <option name="ACTIVITY_CLASS" value="ru.spbau.hm.ui.MainActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="JellyBean" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -588,13 +612,29 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Android Application.HearMe" />
+    <configuration default="false" name="hm.2.2" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="hm" />
+      <option name="ACTIVITY_CLASS" value="ru.spbau.hm.ui.MainActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="Froyo" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.hm.4.1.2" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.hm.2.2" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -618,82 +658,53 @@
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
     <option name="IGNORE_EXTERNALS" value="false" />
-    <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8ae44dc1-c558-489d-b586-06a308ab1fe8" name="Default" comment="" />
-      <created>1352778988747</created>
-      <updated>1352778988747</updated>
+      <changelist id="9706fbe7-2636-4d24-9ec6-247d9e014380" name="Default" comment="" />
+      <created>1352760782549</created>
+      <updated>1352760782549</updated>
     </task>
-    <task id="LOCAL-00001" summary="example of sound volume managment">
-      <created>1352806449436</created>
-      <updated>1352806449436</updated>
+    <task id="LOCAL-00001" summary="UI skeleton added">
+      <created>1352860130007</created>
+      <updated>1352860130007</updated>
     </task>
-    <task id="LOCAL-00002" summary="example of sound volume managment">
-      <created>1352813458126</created>
-      <updated>1352813458126</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;gen/com/example/R.java&#10;&#9;src/com/example/MyActivity.java&#10;">
-      <created>1352837427362</created>
-      <updated>1352837427362</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;src/hearme/locator/gps/GPSActivity.java&#10;">
-      <created>1352838053953</created>
-      <updated>1352838053953</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="0">
-    <todo-panel id="selected-file">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="default-changelist">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3414264" sideWeight="0.6712963" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39814815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2489019" sideWeight="0.67159766" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37808642" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30062112" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.50069445" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.49444443" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25493172" sideWeight="0.6728395" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3271605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="99" y="96" width="1168" height="573" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3441358" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20069444" sideWeight="0.6708075" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.6708075" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.6708075" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.49722221" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -719,7 +730,6 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
@@ -729,14 +739,14 @@
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;src/hearme/locator/gps/GPSActivity.java&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI skeleton added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -747,9 +757,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="example of sound volume managment" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;gen/com/example/R.java&#10;&#9;src/com/example/MyActivity.java&#10;" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;src/hearme/locator/gps/GPSActivity.java&#10;" />
+    <MESSAGE value="UI skeleton added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -759,68 +767,48 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/volume_test.xml">
+    <entry file="file://$PROJECT_DIR$/../sdk/sources/android-16/android/provider/ContactsContract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="54" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+        <state line="112" column="19" selection-start="3746" selection-end="3746" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sdk/sources/android-16/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="868" column="4" selection-start="40263" selection-end="40315" vertical-scroll-proportion="0.33203125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hearme/IPersistenceProvider.java">
+    <entry file="file://$PROJECT_DIR$/../sdk/sources/android-16/android/app/DialogFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="51" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
+        <state line="445" column="49" selection-start="17316" selection-end="17361" vertical-scroll-proportion="0.22908624" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/environment/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.26367188">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hearme/rules/IRulesManager.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/environment/RingSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="8" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.26367188">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hearme/IInvoker.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/environment/Time.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+        <state line="8" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.234375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hearme/impl/FooPersistenceProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/EditProfileActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hearme/providers/IRingSettingsProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="140" selection-end="161" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hearme/providers/ILocationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hearme/rules/IRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hearme/rules/ICondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="238" selection-end="248" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,50 +818,68 @@
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hearme/locator/place/PlacesList.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/GPSActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="458" selection-end="468" vertical-scroll-proportion="0.0">
+        <state line="22" column="0" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hearme/environment/Location.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/volume_test.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="12" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+        <state line="3" column="38" selection-start="195" selection-end="195" vertical-scroll-proportion="-1.6666666">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/locator/place/ConnectionDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/locator/place/GooglePlaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="37" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#534#566#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hearme/locator/viewer/PlaceViewer.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/locator/place/Place.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="34" selection-start="546" selection-end="556" vertical-scroll-proportion="0.0">
+        <state line="37" column="36" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hearme/locator/place/GooglePlaces.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/locator/place/PlaceProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="42" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0">
+        <state line="12" column="13" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hearme/locator/gps/GPSActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/locator/place/PlacesList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="69" selection-start="2270" selection-end="2270" vertical-scroll-proportion="0.0">
+        <state line="21" column="13" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/hm/activities/PlaceViewerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="54" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.2902439">
-          <folding>
-            <element signature="tag#activity#0;tag#application#0;tag#manifest#0" expanded="false" />
-          </folding>
+        <state line="18" column="13" selection-start="413" selection-end="413" vertical-scroll-proportion="0.23166023">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +912,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>QCAR</last-edited>
+          <last-edited>scala.compiler.2.9.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -918,7 +924,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android 2.3.3 Platform</last-edited>
+          <last-edited>Android 4.1.2 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -930,12 +936,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>HearMe</last-edited>
+          <last-edited>hm</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -947,7 +952,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.20000002" />
+                <option value="0.19999993" />
               </list>
             </option>
           </splitter-proportions>
@@ -955,17 +960,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
+          <last-edited>google-api-client-android-1.12.0-beta</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
