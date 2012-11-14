@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">hm</string>
+    <string name="place_settings_checkbox_enabled_label">Enabled</string>
+    <string name="header_caption">STUBBED</string>
+    <string name="option_manage_profiles_title">Profiles</string>
+    <string name="option_manage_profiles_title_condensed">Profiles</string>
+    <string name="profiles_list_title">Profiles List</string>
+    <string name="profile_editor_label_ti">Name</string>
+    <string name="profiles_list_removal_action_prompt">Remove selected profile?</string>
+    <string name="profiles_list_removal_action_prompt_confirmation">Confirm</string>
+    <string name="profiles_list_removal_action_prompt_cancelation">Cancel</string>
+    <string name="profile_editor_title">Profile</string>
+</resources>
