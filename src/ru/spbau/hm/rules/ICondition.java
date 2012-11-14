@@ -14,4 +14,7 @@ public interface ICondition {
     TimeInterval getTimeInterval();
 
     Location getLocation();
+
+    boolean equals(ICondition condition);
+    boolean isConflicts(ICondition condition);
 }

@@ -25,12 +25,15 @@ public class TimeInterval {
         return myEnd;
     }
 
-    boolean isInclude(Time time) {
+    public boolean isInclude(Time time) {
         return (time.compareTo(myBegin) >= 0) && (time.compareTo(myEnd)< 0);
     }
 
-    boolean isInclude(TimeInterval timeInterval) {
+    public boolean isInclude(TimeInterval timeInterval) {
         return isInclude(timeInterval.getBegin()) && isInclude(timeInterval.getEnd());
     }
 
+    public boolean isIntersects(TimeInterval timeInterval) {
+        return isInclude(timeInterval.getBegin()) ||timeInterval.isInclude(this.getBegin());
+    }
 }

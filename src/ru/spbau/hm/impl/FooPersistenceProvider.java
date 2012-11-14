@@ -5,6 +5,7 @@ import ru.spbau.hm.rules.IRule;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,14 +16,13 @@ import java.util.Collection;
  */
 public class FooPersistenceProvider implements IPersistenceProvider {
     @Override
-    public boolean saveRules(Collection<IRule> rules, String filename) {
+    public boolean saveRules(Collection<IRule> rules) {
         return true;
     }
 
     @Override
-    public Collection<IRule> loadRules(String filename) {
+    public List<IRule> loadRules() {
         return new ArrayList<IRule>();
     }
-
 
 }

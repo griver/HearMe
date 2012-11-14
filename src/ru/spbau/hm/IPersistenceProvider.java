@@ -3,6 +3,7 @@ package ru.spbau.hm;
 import ru.spbau.hm.rules.IRule;
 
 import java.util.Collection;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,7 +13,7 @@ import java.util.Collection;
  * To change this template use File | Settings | File Templates.
  */
 public interface IPersistenceProvider {
-    boolean saveRules(Collection<IRule> rules, String filename);
+    boolean saveRules(Collection<IRule> rules);
 
-    Collection<IRule> loadRules(String filename);
+    List<IRule> loadRules();
 }
