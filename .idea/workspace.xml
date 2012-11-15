@@ -164,7 +164,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="66" selection-start="605" selection-end="605" vertical-scroll-proportion="0.218509">
+            <state line="19" column="45" selection-start="675" selection-end="675" vertical-scroll-proportion="0.30591258">
               <folding />
             </state>
           </provider>
@@ -840,7 +840,11 @@
       <created>1352890249951</created>
       <updated>1352890249952</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="++">
+      <created>1352988633970</created>
+      <updated>1352988633970</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1037,7 +1041,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="66" selection-start="605" selection-end="605" vertical-scroll-proportion="0.218509">
+        <state line="19" column="45" selection-start="675" selection-end="675" vertical-scroll-proportion="0.30591258">
           <folding />
         </state>
       </provider>
