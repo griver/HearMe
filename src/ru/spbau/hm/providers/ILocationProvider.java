@@ -1,6 +1,6 @@
 package ru.spbau.hm.providers;
 
-import ru.spbau.hm.environment.Location;
+import ru.spbau.hm.environment.Place;
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,5 +10,5 @@ import ru.spbau.hm.environment.Location;
  * To change this template use File | Settings | File Templates.
  */
 public interface ILocationProvider {
-    Location getCurrentLocation();
+    Place getCurrentLocation();
 }

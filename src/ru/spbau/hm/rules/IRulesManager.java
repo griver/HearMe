@@ -1,7 +1,7 @@
 package ru.spbau.hm.rules;
 
 import ru.spbau.hm.IPersistenceProvider;
-import ru.spbau.hm.environment.Location;
+import ru.spbau.hm.environment.Place;
 import ru.spbau.hm.environment.Time;
 
 import java.util.List;
@@ -16,7 +16,7 @@ import java.util.List;
 public interface IRulesManager {
     void setPersistenceProvider(IPersistenceProvider persistenceProvider);
 
-    List<IRule> getApplicableRules(Location location, Time time);
+    List<IRule> getApplicableRules(Place location, Time time);
 
     List<IRule> GetAllRules();
 

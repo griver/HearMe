@@ -23,7 +23,7 @@ import android.widget.Toast;
 import ru.spbau.hm.R;
 import ru.spbau.hm.locator.place.ConnectionDetector;
 import ru.spbau.hm.locator.place.Place;
-import ru.spbau.hm.locator.place.PlaceProvider;
+import ru.spbau.hm.locator.place.PlacesProvider;
 import ru.spbau.hm.locator.place.PlacesList;
 
 
@@ -66,12 +66,12 @@ public class GPSActivity extends Activity {
 
 
             ConnectionDetector cd = new ConnectionDetector(getApplicationContext());
-            PlaceProvider placeProvider = new PlaceProvider(1000, null, cd);
+            PlacesProvider placesProvider = new PlacesProvider(1000, null, cd);
 
-            ru.spbau.hm.environment.Location locationInfo = placeProvider.getPlacesList(location.getLatitude(), location.getLongitude());
+            ru.spbau.hm.environment.Place locationInfo = placesProvider.getPlacesList(location.getLatitude(), location.getLongitude());
             PlacesList list = locationInfo.getPlacesList();
 
-            Intent intent = new Intent(this, PlaceViewerActivity.class);
+            Intent intent = new Intent(this, SelectPlaceFragment.class);
 
             int size = list.results.size();
             String[] places = new String[size];

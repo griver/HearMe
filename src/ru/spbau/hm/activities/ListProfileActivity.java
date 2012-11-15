@@ -2,9 +2,9 @@ package ru.spbau.hm.activities;
 
 import android.app.ListActivity;
 import android.app.LoaderManager;
+import android.content.Loader;
 import android.content.CursorLoader;
 import android.content.Intent;
-import android.content.Loader;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.provider.ContactsContract;
@@ -35,7 +35,7 @@ public class ListProfileActivity extends ListActivity implements LoaderManager.L
 
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.profiles_list_layout);
+        setContentView(R.layout.profiles_list);
 
 
         // Register context-menu

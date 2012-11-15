@@ -19,16 +19,15 @@ public class LocalPlacesSelectionDialog extends DialogFragment {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
         builder.setSingleChoiceItems(
-                STUBBED_CHOICES,
-                -1,
-                new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        chosen = which;
-                    }
+            STUBBED_CHOICES,
+            -1,
+            new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    chosen = which;
                 }
+            }
         );
-
 
         return builder.create();
 

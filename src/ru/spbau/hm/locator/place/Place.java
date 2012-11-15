@@ -44,7 +44,9 @@ public class Place implements Serializable {
 
     @Override
     public String toString() {
-        return name + " - " + id + " - " + reference;
+        //return name + " - " + id + " - " + reference;
+        return  name + "\n" +
+                geometry.location.lat + " : " + geometry.location.lng;
     }
 
     public static class Geometry implements Serializable

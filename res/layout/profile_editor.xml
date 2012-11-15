@@ -25,16 +25,4 @@
             android:text="STUBBED: LOCATION LABEL"
             />
 
-    <TextView
-            android:id="@+id/profile_editor_selected_time"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center_vertical|center_horizontal"
-            android:clickable="true"
-            android:onClick="extractLocalPlaces"
-            android:layout_marginTop="10dp"
-            android:text="STUBBED: LOCATION LABEL"
-            />
-
 </LinearLayout>

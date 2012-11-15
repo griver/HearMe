@@ -1,6 +1,6 @@
 package ru.spbau.hm.rules;
 
-import ru.spbau.hm.environment.Location;
+import ru.spbau.hm.environment.Place;
 import ru.spbau.hm.environment.TimeInterval;
 
 /**
@@ -13,5 +13,5 @@ public interface ICondition {
 
     TimeInterval getTimeInterval();
 
-    Location getLocation();
+    Place getLocation();
 }
