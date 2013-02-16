@@ -3,18 +3,18 @@
   <component name="FacetManager">
     <facet type="android" name="Android">
       <configuration>
-        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/gen" />
-        <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/gen" />
-        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/AndroidManifest.xml" />
-        <option name="RES_FOLDER_RELATIVE_PATH" value="/res" />
-        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/assets" />
-        <option name="LIBS_FOLDER_RELATIVE_PATH" value="/libs" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/./gen" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/./gen" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/./AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/./res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/./assets" />
+        <option name="LIBS_FOLDER_RELATIVE_PATH" value="/./libs" />
         <option name="USE_CUSTOM_APK_RESOURCE_FOLDER" value="false" />
         <option name="CUSTOM_APK_RESOURCE_FOLDER" value="" />
         <option name="USE_CUSTOM_COMPILER_MANIFEST" value="false" />
         <option name="CUSTOM_COMPILER_MANIFEST" value="" />
         <option name="APK_PATH" value="" />
-        <option name="LIBRARY_PROJECT" value="false" />
+        <option name="LIBRARY_PROJECT" value="true" />
         <option name="RUN_PROCESS_RESOURCES_MAVEN_TASK" value="true" />
         <option name="CUSTOM_DEBUG_KEYSTORE_PATH" value="" />
         <option name="PACK_TEST_CODE" value="false" />
@@ -23,7 +23,7 @@
         <option name="USE_CUSTOM_MANIFEST_PACKAGE" value="false" />
         <option name="CUSTOM_MANIFEST_PACKAGE" value="" />
         <resOverlayFolders>
-          <path>/res-overlay</path>
+          <path>/./res-overlay</path>
         </resOverlayFolders>
         <includeSystemProguardFile>true</includeSystemProguardFile>
         <includeAssetsFromLibraries>false</includeAssetsFromLibraries>
@@ -38,8 +38,7 @@
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
-    <orderEntry type="library" name="google-api-client-1.13.1-beta" level="project" />
-    <orderEntry type="module" module-name="Google Play Services" />
+    <orderEntry type="library" name="google-play-services" level="project" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

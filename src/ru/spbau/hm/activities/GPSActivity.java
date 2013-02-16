@@ -23,8 +23,8 @@ import android.widget.Toast;
 import ru.spbau.hm.R;
 import ru.spbau.hm.locator.place.ConnectionDetector;
 import ru.spbau.hm.locator.place.Place;
-import ru.spbau.hm.locator.place.PlacesProvider;
 import ru.spbau.hm.locator.place.PlacesList;
+import ru.spbau.hm.locator.place.PlacesProvider;
 
 
 public class GPSActivity extends Activity {
@@ -88,7 +88,6 @@ public class GPSActivity extends Activity {
 
             intent.putExtra("places", places);
             startActivityForResult(intent, 1);
-
 
         } else {
             Toast.makeText(GPSActivity.this, "Location not found yet", Toast.LENGTH_LONG).show();
